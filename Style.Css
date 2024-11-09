@@ -1,0 +1,92 @@
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the shopping application */
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+/* Styling for each plant item */
+.plant-item {
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #e6f7e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plant-info {
+    flex: 1;
+}
+
+.price {
+    font-weight: bold;
+    color: #fa7e1e;
+}
+
+/* Button styling */
+.add-to-cart {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+/* Shopping Cart section */
+.cart {
+    margin-top: 20px;
+}
+
+.cart h2 {
+    color: #2d6a4f;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.total-price {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    text-align: right;
+}

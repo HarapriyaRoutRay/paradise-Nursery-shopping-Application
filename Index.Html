@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Nursery Shopping Application</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS file link -->
+</head>
+<body>
+    <div class="container">
+        <h1>Paradise Nursery Shopping Application</h1>
+
+        <!-- Plant Items -->
+        <div class="plant-item">
+            <div class="plant-info">
+                <h3>Plant 1</h3>
+                <p>Price: <span class="price">$10</span></p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Plant 1', 10)">Add to Cart</button>
+        </div>
+        <div class="plant-item">
+            <div class="plant-info">
+                <h3>Plant 2</h3>
+                <p>Price: <span class="price">$15</span></p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Plant 2', 15)">Add to Cart</button>
+        </div>
+        <div class="plant-item">
+            <div class="plant-info">
+                <h3>Plant 3</h3>
+                <p>Price: <span class="price">$20</span></p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart('Plant 3', 20)">Add to Cart</button>
+        </div>
+
+        <!-- Shopping Cart -->
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ul class="cart-items" id="cartItems"></ul>
+            <p class="total-price" id="totalPrice">Total: $0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- JavaScript file link -->
+</body>
+</html>
